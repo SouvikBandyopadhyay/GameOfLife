@@ -67,6 +67,7 @@ check=function(boxes1){
             else if(count==3){
                 boxes1[i][j].val=1;
             }
+            boxes1[i][j].count=count;
         }
       }
  return boxes1;
